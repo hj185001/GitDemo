@@ -21,6 +21,7 @@ public class AppiumDemo {
 		
 		AndroidDriver<WebElement> driver=new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
 		
+		System.out.println("Application Loaded to Mobile");
 
 	}
 
